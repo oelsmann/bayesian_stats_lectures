@@ -18,7 +18,7 @@ Suggested notebook filename:
 ## Topics covered
 
 The notebook currently includes:
-
+`linear_regression_examples.ipynb`
 - Bayesian inference with MCMC
 - Simple linear regression
 - Robust linear regression
