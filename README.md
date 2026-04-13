@@ -12,13 +12,13 @@ This repository is designed so that the tutorial notebook can be added directly 
 - `.gitignore` — ignores Python, Jupyter, cache, and environment artifacts
 - `REFERENCES.md` — tutorial source links and dataset references
 
-Suggested notebook filename:
-- `bayesian_examples.ipynb`
 
 ## Topics covered
 
 The notebook currently includes:
-`linear_regression_examples.ipynb`
+
+`1_linear_regression_examples.ipynb`
+
 - Bayesian inference with MCMC
 - Simple linear regression
 - Robust linear regression
@@ -31,8 +31,8 @@ The notebook currently includes:
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone [<your-repo-url>](https://github.com/oelsmann/bayesian_stats_lectures)
+cd bayesian_stats_lectures
 ```
 
 ### 2. Create the Conda environment
@@ -54,7 +54,7 @@ or
 jupyter notebook
 ```
 
-Open `bayesian_examples.ipynb`.
+Open `1_linear_regression_examples.ipynb`.
 
 ## Installation guide
 
@@ -146,7 +146,7 @@ pip install -r requirements.txt
 If you want to convert the notebook into a Reveal.js slideshow:
 
 ```bash
-jupyter nbconvert bayesian_examples.ipynb --to slides
+jupyter nbconvert `1_linear_regression_examples.ipynb` --to slides
 ```
 
 This creates:
@@ -163,24 +163,3 @@ See [`REFERENCES.md`](REFERENCES.md) for:
 - PyMC example references
 - the GNSS time-series data source used in the notebook
 
-## Suggested GitHub repo structure
-
-```text
-.
-├── README.md
-├── environment.yml
-├── requirements.txt
-├── .gitignore
-├── REFERENCES.md
-└── bayesian_examples.ipynb
-```
-
-## Notes
-
-- The GNSS example reads data directly from a remote URL.
-- If you want fully offline reproducibility, download the source data and commit it under a `data/` folder, then update the notebook to read from the local file.
-- For teaching, it may also be useful to add rendered slides or exported HTML later.
-
-## License
-
-Add a license file before making the repository public. `MIT` or `BSD-3-Clause` are common choices for teaching material.
