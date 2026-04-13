@@ -1,0 +1,19 @@
+name: bayes-stats
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.11
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - notebook
+  - nbconvert
+  - ipykernel
+  - arviz
+  - xarray
+  - pymc
+  - statsmodels
+  - pillow

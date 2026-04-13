@@ -1,0 +1,14 @@
+numpy
+scipy
+pandas
+matplotlib
+seaborn
+jupyterlab
+notebook
+nbconvert
+ipykernel
+arviz
+xarray
+pymc
+statsmodels
+pillow

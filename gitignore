@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+env/
+conda-meta/
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Data / cache
+.cache/
+*.log
+
+# Local outputs
+*.html
+*.pdf
+*.png
+*.gif
+*.mp4
+
+# ArviZ / PyMC generated figures or temporary outputs
+*.nc
