@@ -1,5 +1,7 @@
 # Bayesian Statistics Wiki
 
+Author: ChatGPT 5.4 Thinking
+
 ## 1. What is Bayesian statistics?
 
 Bayesian statistics is a framework for inference in which uncertainty about unknown quantities is expressed with probability distributions. Instead of producing only a single best estimate, Bayesian analysis updates prior beliefs with observed data and returns a posterior distribution.
@@ -483,3 +485,7 @@ These tools support posterior sampling, diagnostics, visualization, and model co
 ## 17. Final note
 
 Bayesian statistics is especially powerful when uncertainty matters. Its main strength is that it provides a coherent way to combine prior knowledge, observed data, and model structure while preserving uncertainty throughout the analysis.
+
+
+## Prompt to generate this file
+'write a small wiki as md file for bayesian stats including bayes theorem, pror, posterior, likelihood, samplers, (some examples), trace, n samples, n tuning, convergence stats (overview of some params), model comparison stats, hierarchical models, data and process uncertainties, return as file'
